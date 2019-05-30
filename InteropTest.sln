@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteropTest", "InteropTest\InteropTest.csproj", "{50200D79-F7F5-43E9-B6C9-53CD96A69E20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetControls", "DotNetControls\DotNetControls.csproj", "{4E6B9A16-A197-4FD5-BAB0-43F18AC00781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{50200D79-F7F5-43E9-B6C9-53CD96A69E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50200D79-F7F5-43E9-B6C9-53CD96A69E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50200D79-F7F5-43E9-B6C9-53CD96A69E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50200D79-F7F5-43E9-B6C9-53CD96A69E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6B9A16-A197-4FD5-BAB0-43F18AC00781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6B9A16-A197-4FD5-BAB0-43F18AC00781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6B9A16-A197-4FD5-BAB0-43F18AC00781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6B9A16-A197-4FD5-BAB0-43F18AC00781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
