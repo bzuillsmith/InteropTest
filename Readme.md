@@ -12,6 +12,7 @@ This repo demonstrates a possible bug on Windows 7. It occurs when a .NET user c
 2. Create the form with the .NET user control
 3. Click the button to raise the event
 4. VB6 code creates a new `MyTestClass`
+5. At this point it will show a message box with "test" if it works, or an automation error if it fails.
 
 
 ## Creating a Build to produce the error
