@@ -5,6 +5,7 @@ This repo demonstrates a possible bug on Windows 7. It occurs when a .NET user c
 ## Important Notes:
 1. **We only get the issue in Windows 7 SP1** after updates have been installed. This works fine on Windows 10 and on a clean install of Windows 7 SP1. However, after running windows updates, we start getting the error in Windows 7.
 2. **The error does not occur in development.** Registering the .NET dll with regasm makes it always work. VB6 only uses registered dlls as references so you cannot reproduce it in development (unless there is some magic you can do for reg-free assembly loading in the VB6 IDE that I don't know about.)
+3. **Instantiating the class before the event makes it work.** The error only occurs if the class instantiated in the VB6 handler is created for the first time.
 
 ## The flows of the code is:
 
