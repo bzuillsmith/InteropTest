@@ -16,13 +16,7 @@ This repo demonstrates a possible bug on Windows 7. It occurs when a .NET user c
 5. At this point it will show a message box with "test" if it works, or an automation error if it fails.
 
 
-## Creating a Build to produce the error
-
-### Prerequisites
-You must have Interop Forms Toolkit installed to build the .NET user controls
-
-### Building and running
-1. Open ```DotNetControls.csproj``` and build. The post build commands copy the files and manifests to the ```build``` folder in the root of the project.
+## Building and running
+1. Open ```DotNetControls.csproj``` in VS 2017+ with Administrator privileges (for COM registration) and build. The post-build commands copy the files and manifests to the ```build``` folder in the root of the project.
 2. Open the InteropTest.vbp project Make the exe, putting it in the ```build``` folder.
-3. Copy all 4 files to various machines for testing. **Don't use the dev machine without unregistering the dll first.** It works on everything but Windows 7 SP1 with updates for me.
-
+3. Copy all 4 build files to various machines for testing. **Don't use the dev machine without unregistering the COM-exposed dll first.** It works on everything but Windows 7 SP1 with updates for me.

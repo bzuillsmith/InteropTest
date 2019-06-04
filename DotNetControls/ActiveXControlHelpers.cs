@@ -5,33 +5,10 @@
     using System.Reflection;
     using System.Runtime.InteropServices;
     using System.Windows.Forms;
-
-    using Microsoft.InteropFormTools;
+    
     using Microsoft.VisualBasic.Devices;
     using Microsoft.Win32;
-
-    /* 
-     * Implements access to the InteropToolbox in similar fashion to the
-     * vb version of the library. Access by using My.InteropToolbox.
-     */
-
-    internal static class My
-    {
-        private static readonly InteropToolbox Toolbox;
-
-        static My()
-        {
-            Toolbox = new InteropToolbox();
-        }
-
-        public static InteropToolbox InteropToolbox
-        {
-            get
-            {
-                return Toolbox;
-            }
-        }
-    }
+    
 
     internal static class ComRegistration
     {
