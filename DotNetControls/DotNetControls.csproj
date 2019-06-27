@@ -67,8 +67,8 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mt -managedassemblyname:$(TargetPath) -nodependency -out:$(TargetName).manifest
-copy $(TargetPath) $(SolutionDir)build
-copy $(TargetName).manifest $(SolutionDir)build
-copy $(ProjectDir)InteropTest.exe.manifest $(SolutionDir)build</PostBuildEvent>
+xcopy /Y $(TargetPath) $(SolutionDir)build\
+xcopy /Y $(TargetName).manifest $(SolutionDir)build\
+xcopy /Y $(ProjectDir)InteropTest.exe.manifest $(SolutionDir)build\</PostBuildEvent>
   </PropertyGroup>
 </Project>
